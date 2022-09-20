@@ -1,16 +1,35 @@
-# 🚧 README em construção 🚧
+# Project Trivia
+# Contexto
+Nesse projeto desenvolvemos um jogo de perguntas e respostas baseado no jogo Trivia (tipo um show do milhão americano) utilizando React e Redux. A partir das demandas, temos uma aplicação onde a pessoa usuária poderá:
 
-<!-- Olá, Tryber!
+- Logar no jogo e, se o email tiver cadastro no site Gravatar, ter sua foto associada ao perfil da pessoa usuária.
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+- Acessar a página referente ao jogo, onde se deverá escolher uma das respostas disponíveis para cada uma das perguntas apresentadas. A resposta deve ser marcada antes do contador de tempo chegar a zero, caso contrário a resposta deverá ser considerada errada.
 
-É essencial que você preencha esse documento por conta própria, ok?
+- Ser redirecionada, após 5 perguntas respondidas, para a tela de score, onde o texto mostrado depende do número de acertos.
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+- Visualizar a página de ranking, se quiser, ao final de cada jogo.
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+- Configurar algumas opções para o jogo em uma tela de configuração acessível a partir do cabeçalho do app.
 
--->
+
+## Tecnologias usadas
+Front-end:
+> Desenvolvido usando: React, Redux, RTL (React Testing Library)
+## Instalando Dependências
+
+```bash
+cd Project-Trivia
+npm install
+```
+## Executando aplicação
+
+  A aplicação estará rodando na porta 3000: http://localhost:3000/ do navegador
+  ```
+  Dentro do bash execute: npm start
+  ```
+## Executando Testes
+* Para rodar todos os testes:
+  ```
+  npm test
+  ```
