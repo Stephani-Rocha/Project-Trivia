@@ -29,7 +29,7 @@ npm install
   Dentro do bash execute: npm start
   ```
 ## Executando Testes
-* Para rodar todos os testes:
+  Para rodar todos os testes:
   ```
   npm test
   ```
